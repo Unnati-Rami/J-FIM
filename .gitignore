@@ -1,0 +1,10 @@
+# Runtime DNA files
+.jfim_snap_dna
+.jfim_monitor_dna
+
+# Logs
+logs/
+
+# Compiled Java files (recommended)
+bin/
+*.class
