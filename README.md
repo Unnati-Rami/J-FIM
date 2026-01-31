@@ -149,7 +149,7 @@ jfim/
 **Requirements:**
 
 - Java JDK 17 or later.
-- Windows (tested) or Linux.
+- Supported Platforms: Windows & Linux (fully tested)
 
 
 **Notes:**
