@@ -90,15 +90,18 @@ logs/alerts.log.txt
 Project Structure
 
 
-'''jfim/
+```text
+jfim/
 ├── src/
-│ ├── Main.java
-│ ├── features/
-│ ├── utils/
-│ └── help/
+│   ├── Main.java
+│   ├── features/
+│   ├── utils/
+│   └── help/
 ├── jfim.jar
 ├── jfim.bat
-└── README.md'''
+└── README.md
+```
+
 
 
 Requirements:
