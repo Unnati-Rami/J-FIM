@@ -41,7 +41,7 @@ Continuously monitors files or directories for changes.
 - Runs continuously until manually stopped (Ctrl + C)
 
 
-Cybersecurity Relevance 🛡️
+Cybersecurity Relevance
 
 JFIM is designed with practical security applications in mind:
 
