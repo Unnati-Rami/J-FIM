@@ -4,7 +4,7 @@ Author: Unnati Rami
 
 JFIM (Java File Integrity Monitor) is a command-line security tool designed to detect unauthorized file modifications using cryptographic hashing.
 
-It provides:
+**It provides:**
 - File hash verification
 - Snapshot-based integrity checking
 - Real-time monitoring capabilities
@@ -12,7 +12,7 @@ It provides:
 The tool is inspired by integrity monitoring concepts used in Linux security utilities.
 
 
-Features
+**Features:**
 
 1. Hash Authentication
 
@@ -41,7 +41,7 @@ Continuously monitors files or directories for changes.
 - Runs continuously until manually stopped (Ctrl + C)
 
 
-Cybersecurity Relevance
+**Cybersecurity Relevance:**
 
 JFIM is designed with practical security applications in mind:
 
@@ -49,14 +49,15 @@ JFIM is designed with practical security applications in mind:
 - Supply Chain Security: Ensures downloaded binaries match the developer’s original hash.
 - Incident Response: Provides baseline snapshots to quickly identify altered files during a security breach.
 
-Usage
+**Usage:**
 
-General Syntax:
+**General Syntax:**
 
+'''text
 jfim <command> [options]
+'''
 
-
-Commands
+**Commands:**
 
 ```text
 -a, --authentication — Verify file hash  
@@ -66,7 +67,7 @@ Commands
 ``` 
 
 
-Options
+**Options:**
 
 ```text
 -f <file_path> — Specify a file path  
@@ -74,7 +75,7 @@ Options
 -H <hash> — Provide original hash for verification
 ```
 
-Examples:
+**Examples:**
 
 Verify a file hash:
 ```text
@@ -97,7 +98,7 @@ jfim -h
 ```
 
 
-Output Style:
+**Output Style:**
 
 ```text
 [OK]     File unchanged
@@ -109,7 +110,7 @@ Alerts generated during real-time monitoring are also written to:
 logs/alerts.log.txt
 
 
-Project Structure
+**Project Structure:**
 
 
 ```text
@@ -126,20 +127,20 @@ jfim/
 
 
 
-Requirements:
+**Requirements:**
 
 - Java JDK 17 or later
 - Windows (tested) or Linux
 
 
-Notes:
+**Notes:**
 
 - Real-time monitoring runs continuously until stopped manually using Ctrl + C.
 - Snapshot and monitor DNA files are created automatically.
 - The tool is designed to be simple, transparent, and security-focused.
 
 
-License:
+**License:**
 
 This project is provided for educational and security research purposes.
 
