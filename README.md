@@ -1,4 +1,4 @@
-**JFIM — Java File Integrity Monitor.**
+**J-FIM — Java File Integrity Monitor.**
 
 **Author:** Unnati Rami.
 
