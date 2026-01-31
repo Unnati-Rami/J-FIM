@@ -1,4 +1,4 @@
-JFIM — Java File Integrity Monitor
+**JFIM — Java File Integrity Monitor.**
 
 Author: Unnati Rami
 
@@ -40,6 +40,14 @@ Continuously monitors files or directories for changes.
 - Logs alerts to a persistent log file
 - Runs continuously until manually stopped (Ctrl + C)
 
+
+Cybersecurity Relevance 🛡️
+
+JFIM is designed with practical security applications in mind:
+
+- Tamper Detection: Detects unauthorized modifications to system or configuration files.
+- Supply Chain Security: Ensures downloaded binaries match the developer’s original hash.
+- Incident Response: Provides baseline snapshots to quickly identify altered files during a security breach.
 
 Usage
 
@@ -136,4 +144,4 @@ License:
 This project is provided for educational and security research purposes.
 
 
-JFIM — Monitor what matters.
+**JFIM — Monitor what matters.**
