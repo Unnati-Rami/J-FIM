@@ -54,9 +54,17 @@ JFIM is designed with practical security applications in mind:
 **1. For Linux:**
 ```text
 git clone https://github.com/Unnati-Rami/J-FIM.git
+cd J-FIM 
 chmod +x install.sh
 sudo ./install.sh
 jfim -h
+```
+
+**2. For Windows:**
+```text
+git clone https://github.com/Unnati-Rami/J-FIM.git
+cd J-FIM
+jfim.bat -h
 ```
 
 **General Syntax:**
