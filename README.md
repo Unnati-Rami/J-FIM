@@ -73,6 +73,8 @@ jfim.bat -h
 ```text
 jfim <command> [options]
 ```
+**NOTE for Windows Users:** Use jfim.bat instead of jfim.
+
 
 **Commands:**
 
