@@ -87,7 +87,8 @@ Alerts generated during real-time monitoring are also written to:
 logs/alerts.log.txt
 
 
-Project Structure:
+Project Structure
+
 
 jfim/
 ├── src/
