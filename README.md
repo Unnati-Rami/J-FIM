@@ -91,10 +91,10 @@ Project Structure:
 
 jfim/
 ├── src/
-│   ├── Main.java
-│   ├── features/
-│   ├── utils/
-│   └── help/
+│ ├── Main.java
+│ ├── features/
+│ ├── utils/
+│ └── help/
 ├── jfim.jar
 ├── jfim.bat
 └── README.md
