@@ -14,7 +14,7 @@ The tool is inspired by integrity monitoring concepts used in Linux security uti
 
 **Features:**
 
-**1.** Hash Authentication
+**1. Hash Authentication**
 
 Verify the integrity of a file by comparing its current hash with a trusted original hash.
 
@@ -22,7 +22,7 @@ Verify the integrity of a file by comparing its current hash with a trusted orig
 - Clearly indicates whether a file is modified or safe.
 
 
-**2.** Snapshot (Integrity Snapshot)
+**2. Snapshot (Integrity Snapshot)**
 
 Create and maintain integrity snapshots of files or directories.
 
@@ -32,7 +32,7 @@ Create and maintain integrity snapshots of files or directories.
 - Designed for periodic integrity checks.
 
 
-**3.** Real-Time Monitoring
+**3. Real-Time Monitoring**
 
 Continuously monitors files or directories for changes.
 
