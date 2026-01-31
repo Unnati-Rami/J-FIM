@@ -1,6 +1,6 @@
 **JFIM — Java File Integrity Monitor.**
 
-Author: Unnati Rami
+#Author: Unnati Rami
 
 JFIM (Java File Integrity Monitor) is a command-line security tool designed to detect unauthorized file modifications using cryptographic hashing.
 
