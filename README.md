@@ -66,7 +66,7 @@ git clone https://github.com/Unnati-Rami/J-FIM.git
 cd J-FIM
 jfim.bat -h
 ```
-After running the installer (Linux) or using the batch file (Windows), all JFIM commands can be executed from anywhere.
+**NOTE:** After running the installer (Linux) or using the batch file (Windows), all JFIM commands can be executed from anywhere.
 
 **General Syntax:**
 
