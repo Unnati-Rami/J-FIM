@@ -49,7 +49,15 @@ JFIM is designed with practical security applications in mind:
 - Supply Chain Security: Ensures downloaded binaries match the developer’s original hash.
 - Incident Response: Provides baseline snapshots to quickly identify altered files during a security breach.
 
-**Usage:**
+**Installation & Usage:**
+
+**1. For Linux:**
+```text
+git clone https://github.com/Unnati-Rami/J-FIM.git
+chmod +x install.sh
+sudo ./install.sh
+jfim -h
+```
 
 **General Syntax:**
 
