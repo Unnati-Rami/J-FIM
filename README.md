@@ -50,17 +50,17 @@ jfim <command> [options]
 
 Commands:
 
--a, --authentication     Verify file hash
--s, --snapshot           Create or compare integrity snapshot
--m, --monitor            Real-time file or directory monitoring
--h, --help               Show help information
+-a, --authentication     Verify file hash.
+-s, --snapshot           Create or compare integrity snapshot.
+-m, --monitor            Real-time file or directory monitoring.
+-h, --help               Show help information.
 
 
 Options:
 
--f <file_path>     Specify a file path
--p <path>          Specify a file or directory path
--H <hash>          Provide original hash for verification
+-f <file_path>     Specify a file path.
+-p <path>          Specify a file or directory path.
+-H <hash>          Provide original hash for verification.
 
 
 Examples:
