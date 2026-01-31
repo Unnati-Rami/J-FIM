@@ -164,4 +164,4 @@ jfim/
 This project is provided for educational and security research purposes.
 
 
-**JFIM — Monitor what matters.**
+**J-FIM — Monitor what matters.**
