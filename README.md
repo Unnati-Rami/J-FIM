@@ -1,13 +1,13 @@
 **JFIM — Java File Integrity Monitor.**
 
-**Author:** Unnati Rami
+**Author:** Unnati Rami.
 
 JFIM (Java File Integrity Monitor) is a command-line security tool designed to detect unauthorized file modifications using cryptographic hashing.
 
 **It provides:**
-- File hash verification
-- Snapshot-based integrity checking
-- Real-time monitoring capabilities
+- File hash verification.
+- Snapshot-based integrity checking.
+- Real-time monitoring capabilities.
 
 The tool is inspired by integrity monitoring concepts used in Linux security utilities.
 
@@ -18,27 +18,27 @@ The tool is inspired by integrity monitoring concepts used in Linux security uti
 
 Verify the integrity of a file by comparing its current hash with a trusted original hash.
 
-- Automatically detects hash algorithm (MD5, SHA-1, SHA-256, SHA-512)
-- Clearly indicates whether a file is modified or safe
+- Automatically detects hash algorithm (MD5, SHA-1, SHA-256, SHA-512).
+- Clearly indicates whether a file is modified or safe.
 
 
 2. Snapshot (Integrity Snapshot)
 
 Create and maintain integrity snapshots of files or directories.
 
-- Stores cryptographic hashes in a snapshot DNA file
-- Recursively scans directories
-- Detects unchanged and modified files
-- Designed for periodic integrity checks
+- Stores cryptographic hashes in a snapshot DNA file.
+- Recursively scans directories.
+- Detects unchanged and modified files.
+- Designed for periodic integrity checks.
 
 
 3. Real-Time Monitoring
 
 Continuously monitors files or directories for changes.
 
-- Detects file modifications in near real-time
-- Logs alerts to a persistent log file
-- Runs continuously until manually stopped (Ctrl + C)
+- Detects file modifications in near real-time.
+- Logs alerts to a persistent log file.
+- Runs continuously until manually stopped (Ctrl + C).
 
 
 **Cybersecurity Relevance:**
@@ -129,8 +129,8 @@ jfim/
 
 **Requirements:**
 
-- Java JDK 17 or later
-- Windows (tested) or Linux
+- Java JDK 17 or later.
+- Windows (tested) or Linux.
 
 
 **Notes:**
