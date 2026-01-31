@@ -50,38 +50,52 @@ jfim <command> [options]
 
 Commands
 
+```text
 -a, --authentication — Verify file hash  
 -s, --snapshot — Create or compare integrity snapshot  
 -m, --monitor — Real-time file or directory monitoring  
--h, --help — Show help information  
+-h, --help — Show help information
+``` 
 
 
 Options
 
+```text
 -f <file_path> — Specify a file path  
 -p <path> — Specify a file or directory path  
--H <hash> — Provide original hash for verification 
+-H <hash> — Provide original hash for verification
+```
 
 Examples:
 
 Verify a file hash:
+```text
 jfim -a -f "C:\test\file.txt" -H <original_hash>
+```
 
 Create a snapshot of a directory:
+```text
 jfim -s -p "C:\test\folder"
+```
 
 Start real-time monitoring:
+```text
 jfim -m -p "C:\test\folder"
+```
 
 Show help:
+```text
 jfim -h
+```
 
 
 Output Style:
 
+```text
 [OK]     File unchanged
 [ALERT]  File modified
 [ERROR]  Processing error
+```
 
 Alerts generated during real-time monitoring are also written to:
 logs/alerts.log.txt
