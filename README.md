@@ -53,9 +53,9 @@ JFIM is designed with practical security applications in mind:
 
 **General Syntax:**
 
-'''text
+```text
 jfim <command> [options]
-'''
+```
 
 **Commands:**
 
